@@ -1,0 +1,17 @@
+import styles from './select.module.css'
+
+function Select({text, name, handleOnChange, value, options}){
+    return (
+        <div className={styles.form_control}>
+            <label htmlFor={name}>{text}:</label>
+            <select name={name} onChange={handleOnChange} value={value || ''} id={name}>
+                <option>Selecione uma opção</option>
+                {options.map((option)=>(
+                    <option value={option.id} key={option.id}>{option.name}</option>
+                ))}
+            </select>
+        </div>
+    )
+}
+
+export default Select
