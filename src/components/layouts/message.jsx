@@ -12,7 +12,7 @@ function Message({type, msg}) {
             setVisible(false)
             return
         }
-
+        console.log('mudando')
         setVisible(true)
 
         const timer = setTimeout(() =>{
