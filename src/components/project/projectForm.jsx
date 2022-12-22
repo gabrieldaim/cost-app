@@ -11,7 +11,7 @@ function ProjectForm({btnText, handleSubmit, projectData}) {
     const [project, setProject] = useState(projectData || {})
 
     useEffect(() => {
-        fetch("https://costs-app-fake-backend.vercel.app/categories", {
+        fetch("http://localhost:5000/categories", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",}
