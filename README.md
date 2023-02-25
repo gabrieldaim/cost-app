@@ -1,4 +1,4 @@
-<h1 align="center"> Site CostApp, para planejamento de finanças </h1>
+<h1 align="center"> Site CostsApp, para planejamento de finanças </h1>
 
 
 <p align="center">
