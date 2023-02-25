@@ -1,12 +1,9 @@
-<h1 align="center"> Site para encontrar seu bloco no carnaval </h1>
+<h1 align="center"> Site CostApp, para planejamento de finanças </h1>
 
-<p align="center">
-#boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Instruções">Instruções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#autor">Autor</a>
 </p>
@@ -27,21 +24,25 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Git e Github
-- Figma
-- Phosphor Icons
+- JavaScript
 
-**O que aprendemos nesse desafio:**
+**O que usamos nesse projeto:**
 
 - Organização de Github, readme, imagens, hacks para tabela de readme
 - Input, Select e Button customizados
 - Uso de ícones e fontes customizdas
 - HTML: `form`,`header`,`main`,`section`,`form`,`select`,`img`,
 - CSS: `all`, `overflow`, `::before`, `::after`, `rem`, `position`, `fit-content`, `flex e grid`, `@media`, `responsividade`
-- Novo DevTools do Edge
+- JavaScript: `DOM`,`React`
+- JsonServer: `Simulando um banco de dados`
 
-## 🔖 Layout
+## 🔖 Instruções
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1207675804423978995). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+**Para rodar o projeto localmente:**
+
+- npm i <br>
+- npm run backend<br>
+- npm run dev<br>
 
 ## :memo: Licença
 
@@ -50,10 +51,3 @@ Esse projeto está sob a licença MIT.
 ## Autor
 
 Feito com 💜 por Gabriel Daim
-
-
-# cost-app
-<h3> Para rodar o projeto localmente </h3>
-npm i <br>
-npm run backend<br>
-npm run dev<br>
